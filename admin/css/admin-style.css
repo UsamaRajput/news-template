@@ -1,0 +1,88 @@
+/*#d2ff00 yellow
+#2aff00 green
+#00fff6 blue
+*/
+@import url(media.css);
+@import url(variables.css);
+	
+
+
+
+
+.main-body{
+	
+	min-height: 100vh;
+}
+.main-body .side-nav{
+background: var(--bg);
+}
+table  thead{
+	background: var(--bg);
+}
+table tbody tr td img{
+height:50px;
+width: 50px;
+}
+
+
+/* ----------------index tables---------------*/
+
+/* --------x-------index tables--------x------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------Footer Section ---------------*/
+footer{
+	background-color: var(--bg);
+  border-top: 1px solid var(--btn-bg);
+	width: 100%;
+	height: 50px;
+	margin-top: auto;
+}
+
+footer p{
+	text-align: center;
+	line-height: 50px;
+}
+/*-------------------Footer Section ---------------*/
+
+/******************* Pagination*/
+.admin-pagi {
+	display: flex;
+	justify-content:center;
+
+}
+.pagination .page-item a{
+	background: var(--btn-bg);
+}
+
+.pagination .active a{
+	background: var(--bg)!important;
+}
+.pagination .page-item a:hover{
+	background: var(--btn-hover-bg);
+}
+
+
+/********************/
+.card{
+	background: var(--bg);
+}
+.card .card-body{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}

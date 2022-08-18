@@ -1,0 +1,329 @@
+/*#d2ff00 yellow
+#2aff00 green
+#00fff6 blue
+*/
+@import url(media.css);
+@import url(variables.css);
+
+
+/*--------------- Bootstrap Carousel-----------*/
+#bigcarousel .carousel-inner{
+	position: relative;
+}
+#bigcarousel .carousel-inner .carousel-caption{
+	position: absolute;
+	margin-bottom: 30vh!important;
+
+}
+
+#bigcarousel .carousel-inner .carousel-item img{
+	width: 100%;
+	height: 90vh!important;
+	transform:none;
+}
+#bigcarousel .carousel-inner .carousel-item h3{
+	font-size: 4em;	
+	animation-delay: 0.2s!important;
+}
+#bigcarousel .carousel-inner .carousel-item p{
+	font-size: 1.2em;
+	animation-delay: 0.6s!important;
+}
+#bigcarousel .btn{
+	padding: 2% 3%;
+}
+
+#bigcarousel a span{
+	font-size: 3em!important;
+
+}
+
+/*---------x------- Bootstrap Carousel------------x--------*/
+
+/*------------------About Section----------------*/
+.about{
+	position: relative;
+}
+.about .about-img{
+
+	overflow: hidden;
+	border-radius: var(--b-radius);
+}
+.about .about-img img{
+	transition: var(--sec);
+}
+.about .about-img img:hover{
+	transform:var(--scale);
+}
+
+.about p{
+	text-align: justify;
+}
+/*---------x---------About Section---------x-------*/
+
+/*--------------Post Carousel Section---------------*/
+.post-carousel h1{
+	margin-bottom: 20px;
+}
+
+.owl-carousel{
+	margin-top: 50px;
+}
+.post-carousel .owl-img{
+	overflow: hidden;
+	border-radius: var(--b-radius);
+}
+.owl-theme .owl-nav {
+	color: var(--link-color);
+    transition: var(--sec);
+		border: none;
+	outline: none;
+
+}
+.owl-theme .owl-nav  button{
+	border:none;
+	outline: none;
+}
+.owl-theme .owl-nav span{
+	transition: 0.3s;
+	border:none;
+	outline: none;
+
+
+}
+
+.owl-theme .owl-nav span:hover{
+	background-color: white;
+	border:none;
+	outline: none;
+	color: var(--link-hover-color);
+}
+
+.post-carousel .item span{
+	margin: 10px auto;
+}
+
+.fa-arrow-left:before {
+    content: "\f060";
+    font-size: 30px;
+}
+.fa-arrow-right:before {
+    content: "\f061";
+    font-size: 30px;
+}
+
+
+/*--------x------Post Carousel Section-------x-------*/
+/*------------------Author Section---------------*/
+
+
+.authors-section .author .author-img img{
+	display: block;
+	margin: auto;
+	width: 100px;
+	border: 5px solid var(--bg)
+
+}
+.authors-section .author .author-content{
+	background-color: var(--bg);
+	padding-top: 5%;
+	margin-top: -15%;
+	border-radius: 4%;
+}
+.authors-section .author .author-content h3{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 10% auto 5% auto;
+}
+
+.authors-section .author .author-content p{
+	font-size: 1em;
+	margin: -8% 0;
+	padding: 4%;
+	text-align: justify;
+}
+/*-----------x-------Author Section-------x--------*/
+/*-------------------Footer Section ---------------*/
+footer{
+	background-color: var(--bg);
+	margin-top: 10vh;
+	
+}
+footer .first-footer h1{
+	margin: 0;
+}
+footer .first-footer h1::after{
+	background-color: var(--heading-color)!important;
+	margin: 5px auto 10px auto;
+}
+footer .first-footer{
+	text-align: center;
+}
+footer .first-footer .subscribe-footer .btn{
+	height: 42px!important;
+    border-radius: 0;
+    margin: -5px -18px 0 0;
+}
+footer .first-footer .subscribe-footer input{
+	width:50%;
+	height: 42px;
+	background-color: var(--btn-bg);
+	color: var(--link-color);
+	border: none;
+}
+footer .first-footer .footer-instagram img{
+	margin: 1%;
+}
+footer .first-footer i{
+	font-size: 1.5rem;
+	margin: 1%;
+}
+footer .sec-foter{
+	border-top: 1px solid var(--btn-bg);
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	line-height: 40px;
+}
+footer .sec-foter p{
+	text-align: center;
+}
+/*-------------------Footer Section ---------------*/
+
+/*******************About Page**********************/
+.about-banner{
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* color: var(--white); */
+	background:url(../../webimg/Anna.jpg);
+	background-attachment: fixed;
+}
+
+/**********X*********About Page************X**********/
+
+/***************Latest Post Page**********************/
+
+.post-banner{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background:url(../../webimg/Autumn.jpg);
+	background-attachment: fixed;
+	background-position: center; 
+}
+/* --------------Post Section------------*/
+/* .post-section{
+
+} */
+.post-section .post{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.post-section .post .post-img{
+	width: 100%;
+	height: 60vh;
+}
+
+.post-section .post .post-info{
+	/* color: white; */
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	background-color: var(--bg);
+	height: 60px;
+	border-radius: 60px;
+	line-height: 60px;
+	font-size: 1.5em;
+	margin: -30px 23%;
+	
+}
+.post-section .post .post-contant{
+	margin-top: 40px;
+	text-align: justify;
+}
+.post-section .post .post-contant a{
+	 color: var(--link-color)!important; 
+}
+
+.pagination-box{
+	width: 100%;
+}
+.pagination-box .pagination{
+	margin:0 30%;
+}
+/* -------x-------Post Section-------x-----*/
+/*-----------------sidebar ---------------------*/
+.sidebar {
+
+	padding: 2%;
+}
+
+.sidebar .search-box input{
+	border: none; 
+	background-color: var(--btn-bg);
+	color: white!important;
+}
+.sidebar .search-box button{
+	outline: none;
+	border: none;
+}
+.sidebar .sidebar-post h2{
+	text-align: center;
+}
+.sidebar .sidebar-post .side-pimg{
+	overflow: hidden;
+}
+.sidebar .sidebar-post .content-sidepost h5{
+	font-size: 1.2em!important;
+	text-align: justify;
+}
+.sidebar .sidebar-category h2{
+	text-align: center;
+}
+.sidebar .sidebar-category span{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	height: 30px;
+	color: var(--link-color);
+	background:var(--btn-bg);
+	margin: 1% 0;
+	border-radius: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	transition: var(--sec);
+}
+.sidebar .sidebar-category span:hover{
+	 background: var(--btn-hover-bg); 
+	color: var(--link-hover-color);
+}
+
+/*-------x---------sidebar ------------x------*/
+
+
+/********X*********Latest Post Page************X*******/
+/********X*********Full Post Page************X*******/
+
+.related-post figcaption h2{
+	font-size: 1.2em;
+	text-align: justify;
+}
+.related-post figcaption span{
+	font-size: 0.8em;
+}
+
+/********X*********Full Post Page************X*******/
+/******************* Pagination*/
+.pagination .page-item a{
+	background: var(--btn-bg);
+}
+
+.pagination .active a{
+	background: var(--bg)!important;
+}
+.pagination .page-item a:hover{
+	background: var(--btn-hover-bg);
+}
+
+
+/********************/
